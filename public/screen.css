@@ -1,39 +1,98 @@
 :root {
-	font: 16px / 1 sans-serif;
+  font: 16px / 1 sans-serif;
 }
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	background-color: #008aa1;
-	margin: 0;
-	min-height: 100%;
+  background-color: #008aa1;
+  margin: 0;
+  min-height: 100%;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  background: #ddf2f3;
 }
 
 h1 {
-	text-align: center;
-	font-size: 3rem;
-	padding: 1rem;
-	font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #415467;
+  margin: 1rem;
 }
 
-.top {
-	background-color: lightblue;
-	display: flex;
-	justify-content: center;
-	color: white;
-	border: solid;
+.top-nav {
+  background-color: #00bfd5;
 }
 
-.top a {
-	color: white;
+.top-nav a {
+  color: white;
 }
 
-nav ul {
-	display: flex;
-	list-style: none;
-	justify-content: space-around;
-	color: white;
+.top-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.75rem;
+  margin: 1.5rem;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  background: #ddf2f3;
+}
+
+.kitty-photo {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+  margin: 1rem;
+  border: 1px solid #00bfd5;
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+h3 {
+  color: #415467;
+}
+
+figcaption {
+  color: #415467;
+  font-size: 1.25rem;
+}
+
+.bottom-nav {
+  background-color: #d3d3d3;
+  padding: 0.25rem 0;
+}
+
+.bottom-nav a {
+  color: black;
+}
+
+.bottom-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h2 {
+  color: #415467;
+}
+
+.main-content {
+  display: flex;
 }
